@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:rowCount="1"
+    android:columnCount="7"
+    android:orientation="horizontal"
+    android:id="@+id/gridlayout_spcial_capability"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true">
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dash_image_button"
+            android:src="@mipmap/shield_96"
+            android:contentDescription="@string/dash_image_button_label" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/shield_image_button"
+            android:src="@mipmap/virus_96"
+            android:contentDescription="@string/shield_image_button_label" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/invisibility_image_button"
+            android:src="@mipmap/tunnel_96"
+            android:contentDescription="@string/invisibility_image_button_label" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/camouflage_image_button"
+            android:src="@mipmap/powerup_96"
+            android:contentDescription="@string/camouflauge_image_button_label" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/blow_image_button"
+            android:src="@mipmap/tunnel_96"
+            android:contentDescription="@string/blow_image_button_label" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/split_image_button"
+            android:src="@mipmap/tunnel_96"
+            android:contentDescription="@string/split_image_button_label" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/no_hand_mode_image_button"
+            android:src="@mipmap/tunnel_96"
+            android:contentDescription="@string/nohandmode_image_button_label" />
+
+
+</GridLayout>

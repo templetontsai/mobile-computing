@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" >
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pause_imageButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@mipmap/pause_96"
+        android:contentDescription="@string/home_image_button_label"
+        android:onClick="onClickPause"
+        android:background="@null" />
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:rowCount="1"
+    android:columnCount="7"
+    android:orientation="horizontal"
+    android:id="@+id/gridlayout_spcial_capability"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true">
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dash_image_button"
+            android:src="@mipmap/shield_96"
+            android:contentDescription="@string/dash_image_button_label"
+            android:background="@null"
+            android:onClick="onClickShield" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/shield_image_button"
+            android:src="@mipmap/virus_96"
+            android:contentDescription="@string/shield_image_button_label"
+            android:background="@null"
+            android:onClick="onClickVirus" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/invisibility_image_button"
+            android:src="@mipmap/tunnel_96"
+            android:contentDescription="@string/invisibility_image_button_label"
+            android:background="@null"
+            android:onClick="onClickTeleportation" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/camouflage_image_button"
+            android:src="@mipmap/powerup_96"
+            android:contentDescription="@string/camouflauge_image_button_label"
+            android:background="@null"
+            android:onClick="onClickInvisibility" />
+
+
+</GridLayout>
+</RelativeLayout>

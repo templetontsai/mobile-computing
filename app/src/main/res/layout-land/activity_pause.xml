@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" >
+
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pause_imageButton"
+        android:src="@mipmap/undo_96"
+        android:onClick="onClickResume"
+        android:contentDescription="@string/resume_image_button_label"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pause_textview_label"
+        android:id="@+id/pause_textView"
+        android:layout_alignBottom="@+id/pause_imageButton"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/restart_imageButton"
+            android:src="@mipmap/restart_96"
+            android:contentDescription="@string/restart_button_label"
+            android:onClick="onClickRestart" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/setting_imageButton"
+            android:src="@mipmap/settings_96"
+            android:contentDescription="@string/setting_button_label"
+            android:onClick="onClickSetting" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/exit_imageButton"
+            android:src="@mipmap/exit_96"
+            android:contentDescription="@string/exit_button_label"
+            android:onClick="onClickExit" />
+    </LinearLayout>
+
+</RelativeLayout>

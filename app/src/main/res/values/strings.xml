@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Metastasis</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="orientation_switch_label">Orientation</string>
+    <string name="advanced_ai_switch_label">Advanced AI</string>
+    <string name="acc_switch_label">Accelerometer</string>
+    <string name="gesture_switch_label">Gesture</string>
+    <string name="sensors_switch_label">Sensors</string>
+    <string name="credit_button">Credits</string>
+    <string name="play_button_label">Play</string>
+    <string name="dashboard_button_label">Game Center</string>
+    <string name="exit_button_label">Exit</string>
+    <string name="greeting_user_text_label">Hi! xxx</string>
+    <string name="setting_button_label">Setting</string>
+    <string name="imagebutton_home_label">Going back to Game Home Screen</string>
+    <string name="game_center_textview_label">Game Center</string>
+    <string name="leaderboard_button_label">Leaderboard</string>
+    <string name="achievement_image_button_label">Achievement</string>
+    <string name="statistics_image_button_label">Statistics</string>
+    <string name="home_image_button_label">Home</string>
+    <string name="dash_image_button_label">Dash</string>
+    <string name="shield_image_button_label">Shield</string>
+    <string name="invisibility_image_button_label">Invisibility</string>
+    <string name="camouflauge_image_button_label">Camouflage</string>
+    <string name="blow_image_button_label">Blow</string>
+    <string name="split_image_button_label">Split</string>
+    <string name="nohandmode_image_button_label">No Hand Mode</string>
+    <string name="restart_button_label">Restart</string>
+    <string name="pause_textview_label">Pause</string>
+    <string name="resume_image_button_label">Resume</string>
+    <string name="back_image_button_label">Back</string>
+    <string name="exit_image_button_label">Exit</string>
+    <string name="play_imagebutton_label">play_imagebutton</string>
+    <string name="gamecenter_imagebutton_label">gamecenter_imagebutton</string>
+    <string name="motion_control_label">Motion Control</string>
+    <string name="Background_style_label">Background Style</string>
+    <string name="background_style_label">Background Style</string>
+    <string name="create_lobby_button">Create Lobby</string>
+    <string name="join_lobby_button">Join Lobby</string>
+    <string name="start_game_button">Start Game</string>
+    <string name="back_button_label">back</string>
+    <string name="search_lobby_button">SEARCH LOBBY</string>
+    <string name="player">"Player Name: "</string>
+    <string name="score">"Score: "</string>
+    <string name="disksEaten">"Disks Eaten: "</string>
+    <string name="gameState">"Game State: "</string>
+    <string name="gameSummary">" Game Summary "</string>
+
+</resources>

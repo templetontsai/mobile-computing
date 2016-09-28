@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="?android:attr/activatedBackgroundIndicator">
+
+    <TextView
+        android:id="@+id/lblPlayerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/player"
+        android:theme="@style/labelText"/>
+
+    <TextView
+        android:id="@+id/textPlayerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblPlayerName" />
+
+
+    <Space
+        android:id= "@+id/sp1"
+        android:layout_width= "23dp"
+        android:layout_height="23dp"
+        android:layout_toRightOf="@+id/textPlayerName" />
+
+    <TextView
+        android:id="@+id/lblScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/sp1"
+        android:text="@string/score"
+        android:theme="@style/labelText"/>
+
+    <TextView
+        android:id="@+id/textScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblScore"/>
+
+    <Space
+        android:id= "@+id/sp2"
+        android:layout_width= "23dp"
+        android:layout_height="23dp"
+        android:layout_toRightOf="@+id/textScore" />
+
+    <TextView
+        android:id="@+id/lblDisksEaten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/sp2"
+        android:text="@string/disksEaten"
+        android:theme="@style/labelText"/>
+
+    <TextView
+        android:id="@+id/textDisksEaten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblDisksEaten"/>
+
+    <Space
+        android:id= "@+id/sp3"
+        android:layout_width= "23dp"
+        android:layout_height="23dp"
+        android:layout_toRightOf="@+id/textDisksEaten" />
+
+    <TextView
+        android:id="@+id/lblGameState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/sp3"
+        android:text="@string/gameState"
+        android:theme="@style/labelText"/>
+
+    <TextView
+        android:id="@+id/textGameState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblGameState"/>
+
+</RelativeLayout>
